@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import "~bootstrap/scss/bootstrap";
+$primary-color: #f4f4f4;
+
+body {
+padding: 0;
+margin: 0;
+  }
+  .map{
+    background-color: $primary-color;
+    width: 100%;
+    height: 100vh;
+    
+  }
+
+  .text{
+    width: 100%;
+    text-align: center;
+  }
+
+  .divSwiper{
+    width: 100%;
+    height: 40vh;
+    
+   
+    
+   
+  }
+  swiper-container {
+    width: 90%;
+    height: 100%;
+  }
+
+  swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .contentDiv{
+    justify-content: center;
+    align-items: center;
+   width: 100%;
+   margin: auto;
+    
+
+  }
+
+.contentText{
+ text-align: center;
+ color: #e7d805;
+ font-size: larger;
+ font-weight: 700;
+ 
+
+
+}
